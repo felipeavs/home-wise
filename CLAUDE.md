@@ -54,4 +54,6 @@ Python 3.11+ (venv com 3.13), FastAPI, SQLite na Fase 1 (PostgreSQL + pgvector n
 - **Nunca escreva segredos** em arquivos versionados (`.env.example` só com nomes de variáveis).
 - **Toda decisão relevante vira um ADR** em `docs/adr/` (formato: Contexto, Decisão, Consequências, Alternativas).
 - **Ao final de cada sessão**, sugira uma entrada para `docs/diario/` (pasta só local, ignorada pelo Git; o que foi feito, decisões, aprendizados, próximos passos).
+- **Ao instalar qualquer dependência nova**, atualize `docs/dependencias.md` (arquivo versionado): o que é, para que serve aqui, exemplo prático e onde entra.
+- **Ao criar ou alterar testes**, atualize o arquivo correspondente em `tests/docs/` (um `.md` com o mesmo nome de cada `test_*.py`, por exemplo `tests/docs/test_schemas.md`): o que cada teste prova, entrada e resultado esperado, e a linha "Última execução".
 - Não adicione código de aplicação além do que o passo atual pede.
