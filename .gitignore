@@ -1,0 +1,39 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Dados financeiros e bancos locais (NUNCA versionar)
+data/
+*.db
+*.sqlite
+*.sqlite3
+evals/notas_reais/
+
+# Diário pessoal de sessões (fica só local)
+docs/diario/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
